@@ -1,0 +1,144 @@
+* {
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1055px;
+  }
+}
+
+.imagem-terra {
+  background-image: url(../images/sprite_main.svg?v=3), none;
+  background-repeat: no-repeat;
+}
+
+.imagem-terra-musica {
+  width: 81px;
+  height: 11px;
+  background-position: -51px -68px;
+  opacity: .5;
+}
+
+.app.container {
+  padding-top: 65px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.link-terra {
+  color: #B7B700;
+}
+
+.link-terra:hover {
+  color: #9F9F00;
+}
+
+.navbar {
+  background-color: #C2C800;
+  border: none;
+  /*min-height: 52px;*/
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-header > a:hover {
+  background-color: #CED200;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #CED200;
+  color: #fff;
+}
+
+.navbar-brand-terra {
+  font-size: 0;
+  display: block;
+  width: 98px;
+  height: 30px;
+  /*margin: 9px 12px;*/
+  margin-top: -5px;
+}
+
+.row-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-terra-musica {
+  margin-bottom: 15px;
+}
+
+.btn-comecar.btn-primary {
+  background-color: #8755BB;
+  border-color: #204d74;
+  border: none;
+  font-size: 28px;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .btn-comecar.btn-primary {
+    width: 100%;
+  }
+  .lista-responsiva {
+    text-align: center;
+    vertical-align: top;
+  }
+}
+
+.btn-comecar.btn-primary:hover {
+  background-color: #72469F;
+  border-color: #204d74;
+}
+
+.faca-parte {
+  margin-bottom: 40px;
+}
+
+.text-faca-parte {
+  font-size: 51px;
+  font-weight: 700;
+}
+
+.sub-text-faca-parte {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 20px 100px 20px 0;
+}
+
+.usuario-comunidade {
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.usuario-comunidade > img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.usuario-comunidade > p.usuario-top {
+  font: 700 9px/1 Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: #8755BB;
+  margin-top: -5px;
+}
+
+.lista-responsiva > img {
+  margin: auto;
+}
